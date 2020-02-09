@@ -1,6 +1,6 @@
 # Pro Git 测试记录
 
-个人学习《Pro Git》的测试，github 上创建了一个git_test 的仓库。有些命令不是完整的，[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet#git)是上的缩写。
+个人学习《Pro Git》的测试，github 上创建了一个git_test 的仓库。有些命令是用的缩写，参照[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet#git)。
 
 # Test 001: 创建远程分支test
 ```terminal
