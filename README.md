@@ -30,7 +30,16 @@ $ ggp
 # Test 003: 删除远程分支
 ```terminal
 $ gcm
+# 创建新的分支
 $ gcb test_delete
+
+# push 到repository
 $ git push origin test_delete
-$ git push origin --delete test_delete
+Connection to github.com 22 port [tcp/ssh] succeeded!
+To github.com:huangli/git_test.git
+ - [deleted]         test_delete
+
+# 删除本地分支
+$ git branch -d test_delete
+Deleted branch test_delete (was faa28e2).
 ```
