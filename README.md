@@ -51,10 +51,13 @@ $ gco test
 $ git branch -D master
 Deleted branch master (was 20df121).
 
-# 下载
-$ git pull origin master
+# 下载，此时pull 和 fetch 都可以
+$ git pull origin master 
+$ git fetch origin master
 # 切换到master
 $ gcm
 # 此时有master 了
 # git branch 
+* master
+test
 ```
