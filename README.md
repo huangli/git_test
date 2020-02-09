@@ -26,3 +26,11 @@ $ git merge test
 # git push origin master
 $ ggp
 ```
+
+# Test 003: 删除远程分支
+```terminal
+$ gcm
+$ gcb test_delete
+$ git push origin test_delete
+$ git push origin --delete test_delete
+```
