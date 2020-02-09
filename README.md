@@ -44,7 +44,7 @@ $ git branch -d test_delete
 Deleted branch test_delete (was faa28e2).
 ```
 
-# Test 004: 测试git pull, 删除本地 master ， 在从远程下载 master
+# Test 004: 删除本地分支， 再从远程下载
 ```terminal
 # 此时有两个branch, test 和 master
 $ gco test
