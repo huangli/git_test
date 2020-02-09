@@ -43,3 +43,18 @@ To github.com:huangli/git_test.git
 $ git branch -d test_delete
 Deleted branch test_delete (was faa28e2).
 ```
+
+# Test 004: 测试git pull, 删除本地 master ， 在从远程下载 master
+```terminal
+# 此时有两个branch, test 和 master
+$ gco test
+$ git branch -D master
+Deleted branch master (was 20df121).
+
+# 下载
+$ git pull origin master
+# 切换到master
+$ gcm
+# 此时有master 了
+# git branch 
+```
