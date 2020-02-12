@@ -62,4 +62,9 @@ $ gcm
 test
 ```
 
-# Test 005:
+# Test 005: Alias 懒人提交
+
+```bash
+# github上的博客通过一个命令提交，而不是每次都三个命令，反正只有一个master branch
+alias blog="git add . && git commit -m $(date +%Y-%m-%d) && ggp" 
+```
